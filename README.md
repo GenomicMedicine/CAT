@@ -91,12 +91,12 @@ python cat.py --project_dir /path/to/output \
 6. **Visualization**: Generates plots and summary reports
 
 ## Output Files
-
-- `alignment/`: Contains alignment files (BAM)
-- `results/`: Contains processed results
-  - `summary.csv`: Summary statistics
-  - `events.csv`: Detailed event information
-  - `plots/`: Visualization plots
+- `project_dir/`
+   - `MappingResults/`: Contains first two alignment files (BAM)
+   - `ProcessedResults/`: Breakpoint information and quantitative results
+   - `circ_raw_result.tsv`: Raw results not filtered by breakpoint perimeter overlays
+   - `circleRNA_predict_result.tsv`: The final output of CAT
+  
 
 ## Troubleshooting
 
