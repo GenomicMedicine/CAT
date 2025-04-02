@@ -863,6 +863,7 @@ if __name__ == "__main__":
     parser.add_argument( "--bt2", type=str, required=True, help="bowtie2 ref file")
     parser.add_argument( "--star", type=str, required=True, help="STAR ref file")
     parser.add_argument( "--strand", type=str, default='F2R1', required=True, help="F2R1 or F1R2")
+    parser.add_argument( "--threads, type=int, default=4, required=True, help="Number of threads running cat")
 
     args = parser.parse_args()
-    main(args.project_dir, args.seq_dir, args.star, args.bt2, args.dna, args.gtf, threads = 100,length_seq = args.length,strand_specific = args.strand)
+    main(args.project_dir, args.seq_dir, args.star, args.bt2, args.dna, args.gtf, threads = args.threads,length_seq = args.length,strand_specific = args.strand)
