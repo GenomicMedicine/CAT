@@ -20,19 +20,24 @@ CAT is a comprehensive tool for detecting and analyzing all types of CRIC-RNA de
 
 ## Installation
 
-#Clone the repository
+Clone the repository
 ```bash
 git clone https://github.com/username/CAT.git
 cd CAT
 ```
-#Create a conda environment (recommended)
+Create a conda environment (recommended)
+```bash
 conda create -n cat_env python=3.8
 conda activate cat_env
-#Install Python dependencies
+```
+Install Python dependencies
+```bash
 pip install tqdm pandas pyarrow pyensembl pysam biopython
-#Install external tools
+```
+Install external tools
+```bash
 conda install -c bioconda bedtools star bowtie
-
+```
 
 ## Data Preparation
 
@@ -42,17 +47,21 @@ conda install -c bioconda bedtools star bowtie
    - Genome FASTA file
    - Build STAR and Bowtie2 indices
 
-#Build STAR index
+Build STAR index
+```bash
 STAR --runMode genomeGenerate --genomeDir star_index \
 --genomeFastaFiles genome.fa --sjdbGTFfile annotation.gtf \
 --runThreadN 8
-#Build Bowtie2 index
+```
+Build Bowtie2 index
+```bash
 bowtie2-build genome.fa bowtie2_index
-
+```
 
 ## Usage
 
 ### Basic Command
+```bash
 python cat.py --project_dir /path/to/output \
 --seq_dir /path/to/fastq_files \
 --length 150 \
@@ -60,7 +69,7 @@ python cat.py --project_dir /path/to/output \
 --bt2 /path/to/bowtie2_index \
 --star /path/to/star_index \
 --strand F2R1
-
+```
 
 ### Parameters
 
