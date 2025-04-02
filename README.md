@@ -80,6 +80,7 @@ python cat.py --project_dir /path/to/output \
 - `--bt2`: Path to Bowtie2 reference index
 - `--star`: Path to STAR reference index
 - `--strand`: Strand specificity (F2R1 or F1R2)
+- `--threads`: Number of threads running cat(default: 4)
 
 ## Workflow
 
