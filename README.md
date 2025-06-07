@@ -1,4 +1,3 @@
-# CAT (CricRNA All Types) Tutorial
 ![logo_l](https://github.com/user-attachments/assets/71ca4f1d-d4d8-4713-aa25-a30215245d6d)
 
 ## Overview
