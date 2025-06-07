@@ -6,7 +6,7 @@ CAT is a comprehensive tool for detecting and analyzing all types of circular RN
 ## Benchmark
 We evaluated the CAT method in identifying c-circRNAs – its performance on c-circRNAs can be used as a proxy for its performance on all types of circRNAs. For this analysis, we leveraged data and results from a recent benchmarking study* that compared 16 existing circRNA detection tools
 CAT detected 92.7% of the results that had been experimentally verified in previous studies, and an additional 7.2% of novo circRNAs that were not detected by any of the 16 previous methods.
-![fig2](https://github.com/user-attachments/assets/58a64f04-d231-4607-a36a-5020afa04978)
+![fig2](https://github.com/user-attachments/assets/51131639-592b-49e3-9400-1da35b71b457)
 
 ## Dependencies
 
