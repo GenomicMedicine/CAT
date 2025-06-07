@@ -1,8 +1,13 @@
 # CAT (CricRNA All Types) Tutorial
-![fig1](https://github.com/user-attachments/assets/bc17357d-4907-4cbf-b431-5ccf863488b3)
+![logo_l](https://github.com/user-attachments/assets/71ca4f1d-d4d8-4713-aa25-a30215245d6d)
 
 ## Overview
-CAT is a comprehensive tool for detecting and analyzing all types of CRIC-RNA detection. This tutorial will guide you through the installation, setup, and usage of CAT.
+CAT is a comprehensive tool for detecting and analyzing all types of circular RNA detection. CAT does not rely on annotation of splicing sites and uses filters driven by biological foundation models to reduce false positives.
+
+## Benchmark
+We evaluated the CAT method in identifying c-circRNAs – its performance on c-circRNAs can be used as a proxy for its performance on all types of circRNAs. For this analysis, we leveraged data and results from a recent benchmarking study* that compared 16 existing circRNA detection tools
+CAT detected 92.7% of the results that had been experimentally verified in previous studies, and an additional 7.2% of novo circRNAs that were not detected by any of the 16 previous methods.
+![fig2](https://github.com/user-attachments/assets/58a64f04-d231-4607-a36a-5020afa04978)
 
 ## Dependencies
 
@@ -62,3 +67,6 @@ bowtie2-build genome.fa bowtie2_index
 ## Usage
 
 See wiki
+
+## Reference
+* Vromman, M., et al., Large-scale benchmarking of circRNA detection tools reveals large differences in sensitivity but not in precision. Nat Methods, 2023. 20(8): p. 1159-1169.
