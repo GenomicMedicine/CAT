@@ -18,4 +18,4 @@ CAT detected 92.7% of the results that had been experimentally verified in previ
 For detailed instructions and advanced usage, please refer to our Wiki.
 
 ## Reference
-[1]Vromman, M., et al., Large-scale benchmarking of circRNA detection tools reveals large differences in sensitivity but not in precision. Nat Methods, 2023. 20(8): p. 1159-1169.
+[1] Vromman, M., et al., Large-scale benchmarking of circRNA detection tools reveals large differences in sensitivity but not in precision. Nat Methods, 2023. 20(8): p. 1159-1169.
