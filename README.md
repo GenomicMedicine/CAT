@@ -13,64 +13,9 @@ CAT detected 92.7% of the results that had been experimentally verified in previ
    
 </div>
 
-## Dependencies
-
-### Python Packages
-- tqdm
-- pandas
-- arrow
-- pyensembl
-- pysam
-- biopython (for SeqIO)
-
-### External Tools
-- bedtools
-- STAR
-- bowtie2
-
-## Installation
-
-Clone the repository
-```bash
-git clone https://github.com/username/CAT.git
-cd CAT
-```
-Create a conda environment (recommended)
-```bash
-conda create -n cat_env python=3.8
-conda activate cat_env
-```
-Install Python dependencies
-```bash
-pip install tqdm pandas pyarrow pyensembl pysam biopython
-```
-Install external tools
-```bash
-conda install -c bioconda bedtools star bowtie
-```
-
-## Data Preparation
-
-1. Prepare your sequencing data (FASTQ files)
-2. Prepare reference files(Recommended ensembel version of the genome and annotations):
-   - GTF annotation file
-   - Genome FASTA file
-   - Build STAR and Bowtie2 indices
-
-Build STAR index
-```bash
-STAR --runMode genomeGenerate --genomeDir star_index \
---genomeFastaFiles genome.fa --sjdbGTFfile annotation.gtf \
---runThreadN 8
-```
-Build Bowtie2 index
-```bash
-bowtie2-build genome.fa bowtie2_index
-```
-
 ## Usage
 
-See wiki
+For detailed instructions and advanced usage, please refer to our Wiki.
 
 ## Reference
 * Vromman, M., et al., Large-scale benchmarking of circRNA detection tools reveals large differences in sensitivity but not in precision. Nat Methods, 2023. 20(8): p. 1159-1169.
