@@ -1,5 +1,5 @@
 # CAT (CricRNA All Types) Tutorial
-![fig1](https://github.com/user-attachments/assets/aaba1c2a-08f9-4899-b534-63a6d9f1a3b0)
+
 ## Overview
 CAT is a comprehensive tool for detecting and analyzing all types of CRIC-RNA detection. This tutorial will guide you through the installation, setup, and usage of CAT.
 
