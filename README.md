@@ -24,7 +24,7 @@ The detailed results of our benchmark analysis are available in the Wiki.
 
 ## Usage
 
-For detailed instructions advanced usage, please refer to our Wiki[Wiki](https://github.com/GenomicMedicine/CAT/wiki).
+For detailed instructions advanced usage, please refer to our [Wiki](https://github.com/GenomicMedicine/CAT/wiki).
 
 ## Reference
 [1] Vromman, M., et al., Large-scale benchmarking of circRNA detection tools reveals large differences in sensitivity but not in precision. Nat Methods, 2023. 20(8): p. 1159-1169.
