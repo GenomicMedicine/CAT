@@ -14,6 +14,14 @@ The detailed results of our benchmark analysis are available in the Wiki.
    
 </div>
 
+## Workflow of CAT
+
+<div align="center">
+   
+![image](https://github.com/user-attachments/assets/ec9d8320-8aa1-4551-a15d-fa458d895f94)
+   
+</div>
+
 ## Usage
 
 For detailed instructions advanced usage, please refer to our Wiki.
